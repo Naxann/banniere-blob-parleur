@@ -4,7 +4,6 @@
 
 #navigation /* mise en forme fond barre navigation */
 {
-    background-color: rgba(255,0,0,0.5);
     height: 443px;
     position: relative;
     z-index: 500;
