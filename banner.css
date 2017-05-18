@@ -1,0 +1,22 @@
+/********************************/
+/* BANNIERE                     */
+/********************************/
+
+#navigation /* mise en forme fond barre navigation */
+{
+    background-color: rgba(255,0,0,0.5);
+    height: 500px;
+    position: relative;
+    z-index: 500;
+    width: 900px;
+    margin: auto;
+    margin-top: -500px;
+}
+a.mainmenu
+{
+   position: absolute;
+}
+
+/********************************/
+/* BANNIERE - FIN               */
+/********************************/
