@@ -5,18 +5,160 @@
 #navigation /* mise en forme fond barre navigation */
 {
     background-color: rgba(255,0,0,0.5);
-    height: 500px;
+    height: 443px;
     position: relative;
     z-index: 500;
     width: 900px;
     margin: auto;
-    margin-top: -500px;
+    margin-top: -443px;
 }
 a.mainmenu
 {
    position: absolute;
+   margin-left: 83px;
 }
 
+
+a.mainmenu img {
+	visibility: hidden;
+}
+
+a.mainmenu {
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+a.mainmenu.home {
+	width: 60px;
+	height: 35px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/home.png);
+}
+a.mainmenu.home:hover {
+	background-position: -60px 0px;
+}
+
+a.mainmenu.faq {
+	width: 65px;
+	height: 35px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/faq.png);
+}
+a.mainmenu.faq:hover {
+	background-position: -65px 0px;
+}
+
+a.mainmenu.groups {
+	width: 90px;
+	height: 35px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/groups.png);
+}
+a.mainmenu.groups:hover {
+	background-position: -90px 0px;
+}
+
+a.mainmenu.login {
+	width: 135px;
+	height: 35px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/login.png);
+}
+a.mainmenu.login:hover {
+	background-position: -135px 0px;
+}
+
+a.mainmenu.login#logout {
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/logout.png);
+}
+
+a.mainmenu.memberlist {
+	width: 130px;
+	height: 35px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/memberlist.png);
+}
+a.mainmenu.memberlist:hover {
+	background-position: -130px 0px;
+}
+
+a.mainmenu.privmsg {
+	width: 190px;
+	height: 40px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/privmsg.png);
+}
+a.mainmenu.privmsg:hover {
+	background-position: -190px 0px;
+}
+
+a.mainmenu.privmsg.newmessage {
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/privmsg2.png);
+}
+
+a.mainmenu.profile {
+	width: 105px;
+	height: 35px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/profile.png);
+}
+a.mainmenu.profile:hover {
+	background-position: -105px 0px;
+}
+
+a.mainmenu.register {
+	width: 195px;
+	height: 65px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/register.png);
+}
+a.mainmenu.register:hover {
+	background-position: -195px 0px;
+}
+
+a.mainmenu.search {
+	width: 105px;
+	height: 35px;
+	background-image: url(https://raw.githubusercontent.com/Naxann/banniere-blob-parleur/master/banner/search.png);
+}
+a.mainmenu.search:hover {
+	background-position: -105px 0px;
+}
+
+a.mainmenu.login {
+	top: 346px;
+	left: 587px;
+}
+a.mainmenu.faq {
+	top: 70px;
+	left: 0px;
+}
+a.mainmenu.groups {
+	top: 35px;
+	left: 0px;
+}
+a.mainmenu.home {
+	top: 306px;
+	left: 194px;
+}
+a.mainmenu.memberlist {
+	top: 0px;
+	left: 0px;
+}
+a.mainmenu.privmsg {
+	top: 347px;
+	left: 0px;
+}
+a.mainmenu.profile {
+	top: 306px;
+	left: 435px;
+}
+a.mainmenu.search {
+	top: 306px;
+	left: 305px;
+}
+a.mainmenu.register {
+	top: 0px;
+	left: 527px;
+}
+
+#search_menu {
+	top: 350px !important;
+    left: 400px !important;
+}
+}
 /********************************/
 /* BANNIERE - FIN               */
 /********************************/
